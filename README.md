@@ -2,6 +2,8 @@
 
 ![image](https://github.com/user-attachments/assets/69b0bcfd-2ce9-4363-9cb1-cf87c2891e9a)
 
+![image](https://github.com/user-attachments/assets/5c1fee3f-addc-466b-b7ea-a1af672d2dbb)
+
 ```
 //Performing Left Outer Join using LINQ using Query Syntax
 //Left Data Source: tbl_Courses
