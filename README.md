@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/69b0bcfd-2ce9-4363-9cb1-cf87c2891e9a)
 
-'''
+```
 //Performing Left Outer Join using LINQ using Query Syntax
 //Left Data Source: tbl_Courses
 //Right Data Source: tbl_Students
@@ -20,7 +20,7 @@ foreach (var d in data)
 
 }
 Console.ReadLine();
-'''
+```
 
 ![image](https://github.com/user-attachments/assets/21b9a8a5-5a64-4684-b090-29e9ec0d9459)
 
