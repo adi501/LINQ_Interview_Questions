@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TestDB" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.tbl_Course" Member="tbl_Courses">
+    <Type Name="tbl_Course">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(70) NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_Course_tbl_Student" Member="tbl_Students" ThisKey="Id" OtherKey="Course_Id" Type="tbl_Student" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Student" Member="tbl_Students">
+    <Type Name="tbl_Student">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(70)" CanBeNull="true" />
+      <Column Name="Course_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_Course_tbl_Student" Member="tbl_Course" ThisKey="Course_Id" OtherKey="Id" Type="tbl_Course" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
