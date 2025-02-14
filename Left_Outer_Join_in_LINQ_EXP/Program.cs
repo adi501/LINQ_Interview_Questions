@@ -1,5 +1,6 @@
-﻿using Left_Outer_Join_in_LINQ_EXP;
-using System.Net;
+﻿//Ref: https://dotnettutorials.net/lesson/left-outer-join-in-linq/
+
+using Left_Outer_Join_in_LINQ_EXP;
 
 DataClasses1DataContext objDB = new DataClasses1DataContext("Data Source=.;Initial Catalog=TestDB;Integrated Security=True;TrustServerCertificate=True;");
 
