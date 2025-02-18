@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Left_Outer_Join_in_LINQ_EXP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_Even_Numbers_from_List", "Find_Even_Numbers_from_List\Find_Even_Numbers_from_List.csproj", "{B8538CA5-4DEF-4FB4-89AA-B08FDFF37A38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupBy_Using_LINQ", "GroupBy_Using_LINQ\GroupBy_Using_LINQ.csproj", "{A7368030-C0AE-4391-ADE1-6FFFA9F7E47E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B8538CA5-4DEF-4FB4-89AA-B08FDFF37A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8538CA5-4DEF-4FB4-89AA-B08FDFF37A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8538CA5-4DEF-4FB4-89AA-B08FDFF37A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7368030-C0AE-4391-ADE1-6FFFA9F7E47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7368030-C0AE-4391-ADE1-6FFFA9F7E47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7368030-C0AE-4391-ADE1-6FFFA9F7E47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7368030-C0AE-4391-ADE1-6FFFA9F7E47E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

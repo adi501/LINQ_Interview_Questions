@@ -13,7 +13,7 @@ var evenNumbers2 = numbers.FindAll(numbers => numbers % 2 == 0);
 var evenNumbers3 = numbers.Where(numbers => numbers % 2 == 0);
 foreach(var num in evenNumbers3)
 {
-    Console.WriteLine(num);
+    Console.WriteLine(num);  //O/P : 2,4,6,8,10
 }
 Console.ReadLine();
 
